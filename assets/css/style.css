@@ -1,0 +1,202 @@
+@media screen and (min-width: 400px) {
+    #svgM {
+        display: none;
+    }
+
+    header {
+        background-color: rgb(255, 192, 23);
+    }
+    nav {
+        padding: 10px 0px;
+        border: 1px solid black;
+        position: fixed;
+        width: 100%;
+        background-color: rgb(255, 192, 23);
+        
+    }
+
+    nav > div >a:nth-child(2) {
+        display: none;   
+    }
+    nav > div >a:nth-child(3) {
+        display: none;   
+    }
+    nav > div >a:nth-child(4) {
+        display: none;   
+    }
+
+    nav > div {
+        text-align: right;
+    }
+
+    nav > div > img {
+        float: left;
+        
+        margin-left: 20px;
+    }
+
+    nav > div >a:nth-child(5) {
+        text-decoration: none;
+        color: black;
+        font-size: 0.6rem;
+        padding-right: 20px
+    }
+
+    nav > div > button {
+        font-size: 0.6rem;
+        background-color: black;
+        color: white;
+        margin-right: 15px;
+        border: none;
+        padding: 8px;
+        border-radius: 30px;   
+    }
+
+    #container1 > div {
+        padding-left: 15px;
+    }
+
+    #container1 > div > h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+
+    #container1 > div > p {
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+
+    #container1 > div > button {
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 30px;
+        padding: 5px 25px;
+        margin-bottom: 50px;
+    }
+
+    /* MAIN */
+    main {
+        margin: 0px 20px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+    main > div {
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 3px;
+        margin-left: 10px;
+    }
+
+    main > div > span {
+        font-size: 0.5rem;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .immaginiProfilo{
+        max-width: 5%;
+        border-radius: 100px;
+        margin-right: 5px;
+    }
+
+    .nomi {
+        font-weight: bold;
+        font-size: 0.8rem;   
+    }
+
+    .numero {
+        font-size: 2rem;
+        font-weight: bold;
+        color: gray;
+        float: left; 
+    }
+    
+    .notizie1 {
+        margin-bottom: 30px;
+        line-height: 20px;
+        margin-left: 10px;
+    }
+
+    .notizie2 {
+        margin-left: 40px;
+    }
+
+    .data {
+        font-size: 0.9rem;
+        color: lightgray;
+    }
+
+    /* ASIDE */
+    
+
+    aside > div > p {
+        font-weight: bold;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    
+    
+    #link1 a {
+        text-decoration: none;
+        font-weight: bold;
+        color: lightgray;
+        border: 1px solid lightgray;
+        display: inline-block;
+        padding: 8px 5px;
+        margin-bottom: 5px;   
+    }
+
+    #link2 a {
+        text-decoration: none;
+        color: lightgray;
+        padding-right: 15px;
+    }
+
+    .imgArticolo {
+        max-width: 50%;  
+    }
+
+    .articoli {
+        display: flex;
+        align-items: stretch;
+        margin: 40px 0px;
+    }
+
+    .articoli > div > p {
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .articoli > div > h3 {
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+
+    .articoli > div > p:nth-child(3) {
+        color: gray;
+        font-weight: normal;
+        font-size: 1.2rem;
+    }
+
+    .articoli button {
+        border: none;
+        color: gray;
+        padding: 5px 5px;
+        border-radius: 30px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    /*Non completo per mancanza di tempo...*/
+}
+
